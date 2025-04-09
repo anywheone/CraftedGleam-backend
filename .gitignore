@@ -1,0 +1,30 @@
+# .NET関連の一時ファイルやビルド成果物
+bin/                # ビルド中に生成されるバイナリファイルやオブジェクトファイルを無視
+obj/                # ビルド中に生成されるオブジェクトファイルを無視
+
+# ログファイル
+*.log               # ログファイルを無視（開発中に生成されるログファイル）
+
+# 出力されたビルド成果物
+publish/            # 発行されたアプリケーションの出力ディレクトリを無視
+
+# ユーザー固有のエディタ設定
+.vscode/            # VSCodeの設定ディレクトリを無視
+.idea/              # JetBrains関連の設定ディレクトリ（例: IntelliJ, Riderなど）を無視
+
+# 環境固有のファイル
+*.user              # ユーザー設定ファイル（Rider, Visual Studio など）を無視
+*.suo               # Visual Studioの一時ファイルを無視
+*.userosscache      # Visual Studioのキャッシュファイルを無視
+*.sln.docstates     # Visual Studioのスローロード状態のキャッシュを無視
+
+# OS固有の一時ファイル
+.DS_Store           # macOSの隠しファイルを無視
+Thumbs.db           # Windowsのサムネイルキャッシュファイルを無視
+
+# IDE関連の一時ファイル（Rider等も含む）
+.idea/              # JetBrains製IDE（Rider）の設定ディレクトリ
+.vscode/            # VSCodeの設定ディレクトリ
+
+# 一時ファイルやキャッシュファイル
+*~                  # 一時的なバックアップファイルを無視
