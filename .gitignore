@@ -33,3 +33,6 @@ Thumbs.db           # Windowsのサムネイルキャッシュファイルを無
 # ビルド成果物（実行ファイルや中間ファイル）
 **/bin/
 **/obj/
+
+# Properties フォルダ全体を無視
+Properties/
