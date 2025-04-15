@@ -42,3 +42,6 @@ COPY --from=build /app/publish .
 
 # アプリケーションを実行するためのエントリーポイントを設定
 ENTRYPOINT ["dotnet", "CraftedGleam.Api.dll"]
+
+# curlをインストール
+RUN apt-get update && apt-get install -y curl
